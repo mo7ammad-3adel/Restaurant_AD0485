@@ -45,15 +45,15 @@ namespace Restaurant_AD0485
             // 
             this.dwgCourses.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dwgCourses.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dwgCourses.Location = new System.Drawing.Point(0, 197);
+            this.dwgCourses.Location = new System.Drawing.Point(0, 216);
             this.dwgCourses.Name = "dwgCourses";
-            this.dwgCourses.Size = new System.Drawing.Size(383, 93);
+            this.dwgCourses.Size = new System.Drawing.Size(266, 93);
             this.dwgCourses.TabIndex = 0;
             this.dwgCourses.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dwgCourses_CellContentClick);
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(303, 162);
+            this.btnDelete.Location = new System.Drawing.Point(159, 162);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 27;
@@ -73,21 +73,21 @@ namespace Restaurant_AD0485
             // 
             // txtNumber
             // 
-            this.txtNumber.Location = new System.Drawing.Point(104, 99);
+            this.txtNumber.Location = new System.Drawing.Point(74, 99);
             this.txtNumber.Name = "txtNumber";
             this.txtNumber.Size = new System.Drawing.Size(160, 20);
             this.txtNumber.TabIndex = 24;
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(104, 66);
+            this.txtName.Location = new System.Drawing.Point(74, 66);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(160, 20);
             this.txtName.TabIndex = 23;
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(104, 29);
+            this.txtID.Location = new System.Drawing.Point(74, 29);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(160, 20);
             this.txtID.TabIndex = 22;
@@ -95,7 +95,7 @@ namespace Restaurant_AD0485
             // lblNumber
             // 
             this.lblNumber.AutoSize = true;
-            this.lblNumber.Location = new System.Drawing.Point(42, 102);
+            this.lblNumber.Location = new System.Drawing.Point(12, 102);
             this.lblNumber.Name = "lblNumber";
             this.lblNumber.Size = new System.Drawing.Size(44, 13);
             this.lblNumber.TabIndex = 21;
@@ -104,7 +104,7 @@ namespace Restaurant_AD0485
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(51, 69);
+            this.lblName.Location = new System.Drawing.Point(21, 69);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(35, 13);
             this.lblName.TabIndex = 20;
@@ -113,7 +113,7 @@ namespace Restaurant_AD0485
             // lblID
             // 
             this.lblID.AutoSize = true;
-            this.lblID.Location = new System.Drawing.Point(68, 32);
+            this.lblID.Location = new System.Drawing.Point(38, 32);
             this.lblID.Name = "lblID";
             this.lblID.Size = new System.Drawing.Size(18, 13);
             this.lblID.TabIndex = 19;
@@ -124,7 +124,7 @@ namespace Restaurant_AD0485
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleGreen;
-            this.ClientSize = new System.Drawing.Size(383, 290);
+            this.ClientSize = new System.Drawing.Size(266, 309);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnInsert);
             this.Controls.Add(this.txtNumber);
