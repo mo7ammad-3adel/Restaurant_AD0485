@@ -35,17 +35,12 @@ namespace Restaurant_AD0485
             this.label2 = new System.Windows.Forms.Label();
             this.btnOrder = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
-            "Labneh",
-            "Siniora",
-            "Thyme",
-            "White cheese",
-            "yellow cheese"});
             this.listBox1.Location = new System.Drawing.Point(10, 50);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(103, 82);
@@ -111,12 +106,23 @@ namespace Restaurant_AD0485
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(87, 249);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(73, 41);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "Add";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // BreakFast
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleGreen;
-            this.ClientSize = new System.Drawing.Size(253, 259);
+            this.ClientSize = new System.Drawing.Size(278, 302);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnOrder);
             this.Controls.Add(this.label2);
@@ -124,7 +130,7 @@ namespace Restaurant_AD0485
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
             this.Name = "BreakFast";
-            this.Text = "Break Fast";
+            this.Text = "v";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,5 +144,6 @@ namespace Restaurant_AD0485
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnOrder;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button button1;
     }
 }

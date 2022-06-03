@@ -47,12 +47,6 @@ namespace Restaurant_AD0485
 
 
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            frmDataBase frm4 = new frmDataBase();
-            frm4.TopLevel = false;
-            this.panel3.Controls.Add(frm4);
-            frm4.Show();
-        }
+
     }
 }

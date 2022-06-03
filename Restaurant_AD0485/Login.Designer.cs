@@ -32,7 +32,6 @@ namespace Restaurant_AD0485
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblwel = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.btnDinner = new System.Windows.Forms.Button();
             this.btnLunch = new System.Windows.Forms.Button();
             this.btnBreakFast = new System.Windows.Forms.Button();
@@ -66,7 +65,6 @@ namespace Restaurant_AD0485
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.btnDinner);
             this.panel2.Controls.Add(this.btnLunch);
             this.panel2.Controls.Add(this.btnBreakFast);
@@ -75,18 +73,6 @@ namespace Restaurant_AD0485
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(115, 277);
             this.panel2.TabIndex = 1;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(53)))), ((int)(((byte)(36)))));
-            this.button1.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(20, 206);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 53);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "DataBase";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnDinner
             // 
@@ -161,6 +147,5 @@ namespace Restaurant_AD0485
         private System.Windows.Forms.Button btnBreakFast;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label lblwel;
-        private System.Windows.Forms.Button button1;
     }
 }
