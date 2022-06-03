@@ -35,7 +35,7 @@ namespace Restaurant_AD0485
             add1.Show();
         }
         string database = "Provider=Microsoft.ACE.OLEDB.12.0; " +
-        "Data Source =C:\\Users\\SCHOOL\\Desktop\\Mohammad\\Restaurant_AD0485\\Restaurant_AD0485\\Restaurant_AD0485.accdb";
+                "Data Source = Restaurant_AD0485.accdb";
         void fill_ListBox()
         {
             try
